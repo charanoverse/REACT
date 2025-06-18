@@ -5,6 +5,7 @@ import './App.css'
 import Props from './Props.js'
 import Details from './Details.jsx';
 import LoginComponent from './LoginComponent.js'
+import StudentMarks from "./StudentMarks.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/props" element={<Props/>}/>
         <Route path="/details" element={<Details/>}/>
         <Route path="/login" element={<LoginComponent/>}/>
+        <Route path="/students" element={<StudentMarks/>}/>
       </Routes>
     </Router>
     </div>
