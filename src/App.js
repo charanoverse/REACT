@@ -6,6 +6,7 @@ import Props from './Props.js'
 import Details from './Details.jsx';
 import LoginComponent from './LoginComponent.js'
 import StudentMarks from "./StudentMarks.js";
+import DynamicInputForm from "./DynamicInput.js";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/details" element={<Details/>}/>
         <Route path="/login" element={<LoginComponent/>}/>
         <Route path="/students" element={<StudentMarks/>}/>
+        <Route path="/dynamic" element={<DynamicInputForm/>}/>
       </Routes>
     </Router>
     </div>
